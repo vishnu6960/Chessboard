@@ -10,10 +10,8 @@
     border-collapse: collapse;
 }
 .row{
-    /* border: 1px solid blue; */
     height: 100px;
     width: 100%;
-  
     flex-wrap: nowrap;
 }
 .col{
@@ -23,11 +21,11 @@
     width: 12.5%;
     /* flex-grow: 1; */
 }
-.row:after {
+/* .row:after {
     content: "";
     display: table;
     clear: both;
-  }
+  } */
 
 @media screen and (max-width:600px){
     .main{
@@ -57,5 +55,8 @@
         height: 80px;
     }
     
+}
+h1{
+    color: white;
 }
 
