@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+.main{
+    border: 1px solid black;
+    height:640px;
+    width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.row{
+    height: 80px;
+    width: 100%;
+   
+}
+.col{
+    float: left;
+    border: 2px solid black;
+    height: 100%;
+    width: 12.5%;
+    text-align: center;
+    background-color: rgb(188, 177, 177);
+}
+.col1{
+    float: left;
+    border: 2px solid black;
+    height: 100%;
+    width: 12.5%;
+    text-align: center;
+    background-color: rgb(130, 92, 92);
+}
+#chessicons{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    margin-top: 15px;
+}
+
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } */
+
+@media screen and (max-width:600px){
+    .main{
+        width: 350px;
+        height: max-content;
+    }
+    .row{
+        height: 60px;
+    }
+    #chessicons{
+        height: 30px;
+        width: 30px;
+        position: relative;
+        margin-top: 10px;
+    }
+   
+    .col{
+        height: 60px;
+    }
+    .col1{
+        height: 60px;
+    }
+    
+}
+
+@media screen and (max-width:900px) and (min-width:600px){
+    .main{
+        width: 550px;
+        height: max-content;  
+    }
+    .row{
+        height: 80px;
+    }
+    #chessicons{
+        height: 40px;
+        width: 40px;
+        position: relative;
+        margin-top: 15px;
+    }
+   
+    .col{
+        height: 80px;
+    }
+    .col1{
+        height: 80px;
+    }
+    
+}
+h1{
+    color: white;
+}
+
